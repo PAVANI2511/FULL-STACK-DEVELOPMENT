@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>3.f - User-defined Object (Class Version)</title>
+</head>
+<body>
+  <h2>3.f) User-defined Object in JavaScript (Using Class)</h2>
+
+  <script>
+    // Define a class for Student
+    class Student {
+      constructor(name, rollNo, branch) {
+        this.name = name;
+        this.rollNo = rollNo;
+        this._branch = branch; // underscore for internal property
+      }
+
+      // Method to display student info
+      display() {
+        return `Name: ${this.name}, Roll No: ${this.rollNo}, Branch: ${this._branch}`;
+      }
+
+      // Getter for branch
+      get branch() {
+        return this._branch;
+      }
+
+      // Setter for branch
+      set branch(newBranch) {
+        this._branch = newBranch;
+      }
+    }
+
+    // Create an object
+    const student2 = new Student("Ramya", "23691A3345", "CSE");
+
+    // Display original data
+    document.write("<strong>Student Info:</strong> " + student2.display() + "<br><br>");
+
+    // Use setter to update branch
+    student2.branch = "IT";
+
+    // Display updated data
+    document.write("<strong>Updated Branch:</strong> " + student2.branch + "<br>");
+  </script>
+
+</body>
+</html>
