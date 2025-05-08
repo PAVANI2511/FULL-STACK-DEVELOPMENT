@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Garden Text Styling Example</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      padding: 30px;
+      background-color: #e6ffe6;
+      line-height: 1.6;
+    }
+
+    .font-size {
+      font-size: 22px;
+    }
+
+    .font-weight {
+      font-weight: bold;
+    }
+
+    .font-style {
+      font-style: italic;
+    }
+
+    .combined {
+      font-size: 20px;
+      font-weight: 600;
+      font-style: oblique;
+    }
+
+    .section {
+      background-color: #fff;
+      padding: 20px;
+      border-left: 8px solid #4CAF50;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="section font-size">
+    A garden is a place of peace and beauty. <br>
+    This paragraph uses <strong>font-size: 22px</strong> to make it stand out gently.
+  </div>
+
+  <div class="section font-weight">
+    A well-maintained garden can include colorful flowers, green grass, and shady trees. <br>
+    This text uses <strong>font-weight: bold</strong> to emphasize its importance.
+  </div>
+
+  <div class="section font-style">
+    Gardening is not just a hobby, it's a form of art and relaxation. <br>
+    This text uses <strong>font-style: italic</strong> to add a softer, elegant touch.
+  </div>
+
+  <div class="section combined">
+    With patience and care, any garden can flourish. <br>
+    This sentence uses a combination of <strong>font-size</strong>, <strong>font-weight</strong>, and <strong>font-style</strong>.
+  </div>
+
+</body>
+</html>
