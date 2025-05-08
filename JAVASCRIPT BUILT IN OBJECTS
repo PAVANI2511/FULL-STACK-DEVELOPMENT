@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>3.e - JavaScript Built-in Objects</title>
+</head>
+<body>
+  <h2>3.e) Demonstration of JavaScript Built-in Objects</h2>
+
+  <script>
+    // i. Document Object
+    document.write("<strong>Document Object:</strong> ");
+    document.write("This text is displayed using document.write().<br><br>");
+
+    // ii. Array Object
+    const colors = ["Red", "Green", "Blue"];
+    document.write("<strong>Array Object:</strong> ");
+    document.write(colors.join(", ") + "<br><br>");
+
+    // iii. Math Object
+    const randomNum = Math.floor(Math.random() * 100);
+    document.write("<strong>Math Object:</strong> ");
+    document.write("Random number between 0 and 99: " + randomNum + "<br><br>");
+
+    // iv. String Object
+    const message = "Full Stack Development";
+    document.write("<strong>String Object:</strong> ");
+    document.write("Length of the message is: " + message.length + "<br><br>");
+
+    // v. RegExp (Regular Expression) Object
+    const pattern = /stack/i; // 'i' means case-insensitive
+    const result = pattern.test(message);
+    document.write("<strong>RegExp Object:</strong> ");
+    document.write("Does the message contain 'stack'? " + result + "<br><br>");
+
+    // vi. Date Object
+    const today = new Date();
+    document.write("<strong>Date Object:</strong> ");
+    document.write("Today's date is: " + today.toDateString() + "<br><br>");
+  </script>
+
+</body>
+</html>
