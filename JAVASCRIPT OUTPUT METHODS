@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Output Methods</title>
+</head>
+<body>
+
+    <h1>JavaScript Output Examples</h1>
+
+    <button onclick="showAlert()">Alert Output</button>
+    <button onclick="showConsole()">Console Output</button>
+    <button onclick="showDocumentWrite()">Document.write Output</button>
+    <button onclick="showDOM()">DOM Output</button>
+
+    <div id="output"></div>
+
+    <script>
+        function showAlert() {
+            alert("This is an alert box!");
+        }
+
+        function showConsole() {
+            console.log("Heloo Pavani!!");
+        }
+
+        function showDocumentWrite() {
+            document.write("This is output from document.write().");
+        }
+
+        function showDOM() {
+            document.getElementById("output").innerHTML = "This text is inserted using DOM manipulation!";
+        }
+    </script>
+</body>
+</html>  
