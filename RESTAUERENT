@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Webpage</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Our Restaurant!</h1>
+        <p>Your perfect dining experience awaits.</p>
+    </header>
+
+    <section>
+        <h2>How to Make a Reservation</h2>
+        <ol>
+            <li>Visit our website and click on the "Reservations" button.</li>
+            <li>Select your preferred date and time.</li>
+            <li>Enter your contact information.</li>
+            <li>Confirm your reservation and await a confirmation email.</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Our Menu</h2>
+        <ul>
+            <li><strong>Appetizers</strong>
+                <ul>
+                    <li>Bruschetta</li>
+                    <li>Garlic Bread</li>
+                    <li>Stuffed Mushrooms</li>
+                </ul>
+            </li>
+            <li><strong>Main Courses</strong>
+                <ul>
+                    <li>Vegetarian
+                        <ul>
+                            <li>Vegetable Lasagna</li>
+                            <li>Stuffed Peppers</li>
+                        </ul>
+                    </li>
+                    <li>Non-Vegetarian
+                        <ul>
+                            <li>Grilled Chicken</li>
+                            <li>Beef Steak</li>
+                        </ul>
+                    </li>
+                    <li>Vegan
+                        <ul>
+                            <li>Vegan Burger</li>
+                            <li>Quinoa Salad</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><strong>Desserts</strong>
+                <ul>
+                    <li>Chocolate Cake</li>
+                    <li>Cheesecake</li>
+                    <li>Fruit Tart</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Special Meal Plan</h2>
+        <ul>
+            <li><strong>Daily Special Menu</strong>
+                <ol>
+                    <li>Starter: Soup of the Day</li>
+                    <li>Main Course: Chef's Special Chicken</li>
+                    <li>Dessert: Seasonal Fruit Pie</li>
+                    <li>Drink: Fresh Lemonade</li>
+                </ol>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Follow Us</h2>
+        <p>Stay connected with us on social media:</p>
+        <ul>
+            <li><a href="https://www.facebook.com/YourRestaurant" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/YourRestaurant" target="_blank">Instagram</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Our Special Dish</h2>
+        <a href="dish-details.html">
+            <img src="special-dish.jpg" alt="Our Special Dish" width="500" height="300">
+        </a>
+    </section>
+
+</body>
+</html>
