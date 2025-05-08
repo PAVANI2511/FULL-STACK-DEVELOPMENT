@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Box Model - Pavani</title>
+  <style>
+    .outer-box {
+      margin: 40px;
+      padding: 20px;
+      border: 5px solid #4CAF50;
+      width: 300px;
+      height: 250px;
+      background-color: #f0fff0;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .inner-box {
+      border: 2px dashed #4CAF50;
+      padding: 15px;
+      background-color: #ffffff;
+      display: inline-block;
+      margin-bottom: 20px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="outer-box">
+    <div class="inner-box">Pavani</div>
+    <br>
+    <button>Submit</button>
+  </div>
+
+</body>
+</html>
