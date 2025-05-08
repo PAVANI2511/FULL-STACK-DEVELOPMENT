@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Example</title>
+   
+    <!-- External JavaScript file -->
+    <script src="external.js" defer></script>
+
+    <script>
+        // Internal JavaScript code
+        function showAlert() {
+            alert("This is an alert from internal JavaScript!");
+        }
+    </script>
+</head>
+<body>
+
+    <h1>JavaScript Example</h1>
+   
+    <button onclick="showAlert()">Click Me for Internal JavaScript</button>
+   
+    <button onclick="externalFunction()">Click Me for External JavaScript</button>
+   
+</body>
+</html>
