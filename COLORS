@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Color Reference Examples</title>
+  <style>
+    /* 1. Named Color */
+    .named-color {
+      background-color: red;
+      color: white;
+    }
+
+    /* 2. Hexadecimal */
+    .hex-color {
+      background-color: #00ff00;
+      color: #000000;
+    }
+
+    /* 3. RGB */
+    .rgb-color {
+      background-color: rgb(0, 0, 255);
+      color: white;
+    }
+
+    /* 4. RGBA */
+    .rgba-color {
+      background-color: rgba(255, 0, 0, 0.5);
+      color: black;
+    }
+
+    /* 5. HSL */
+    .hsl-color {
+      background-color: hsl(120, 100%, 50%);
+      color: black;
+    }
+
+    /* 6. HSLA */
+    .hsla-color {
+      background-color: hsla(240, 100%, 50%, 0.3);
+      color: black;
+    }
+
+    /* 7. CSS Custom Property (Variable) */
+    :root {
+      --main-color: orange;
+    }
+
+    .var-color {
+      background-color: var(--main-color);
+      color: white;
+    }
+
+    .example {
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      font-family: sans-serif;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="example named-color">This box uses a named color (like "red") for the background.</div>
+  <div class="example hex-color">This box uses a hexadecimal value to set the background color.</div>
+  <div class="example rgb-color">This box uses the RGB (red, green, blue) model to set the color.</div>
+  <div class="example rgba-color">This box uses RGBA, which includes an alpha (opacity) value.</div>
+  <div class="example hsl-color">This box uses HSL (hue, saturation, lightness) for the background color.</div>
+  <div class="example hsla-color">This box uses HSLA, which is like HSL but adds transparency.</div>
+  <div class="example var-color">This box uses a CSS variable to define the background color.</div>
+
+</body>
+</html>
