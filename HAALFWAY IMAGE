@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fixed Halfway Background Image</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+
+      /* Background settings */
+      background-image: url("Nature-Wallpaper.jpg");
+      background-repeat: no-repeat;
+      background-position: center 50%;
+      background-attachment: fixed;
+      background-size: 50% auto; /* Shrinks image width to 50% of page */
+    }
+
+    .content {
+      padding: 20px;
+      max-width: 700px;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .spacer {
+      height: 1200px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="content">
+    <h1>Welcome to My Page</h1>
+    <p>This page has a background image placed halfway down the screen.</p>
+    <p>The image stays fixed in place even when you scroll.</p>
+  </div>
+
+  <div class="spacer"></div>
+
+</body>
+</html>
