@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Object Iteration</title>
+</head>
+<body>
+    <h2>Iterating over object data using different loops</h2>
+
+    <script>
+        const person = {
+            name: "Alice",
+            age: 25,
+            city: "New York"
+        };
+
+        document.write("<h3>Using for-in loop:</h3>");
+        for (let key in person) {
+            document.write(key + ": " + person[key] + "<br>");
+        }
+
+        document.write("<h3>Using forEach loop on Object.entries():</h3>");
+        Object.entries(person).forEach(([key, value]) => {
+            document.write(key + ": " + value + "<br>");
+        });
+
+        document.write("<h3>Using for-of loop on Object.entries():</h3>");
+        for (let [key, value] of Object.entries(person)) {
+            document.write(key + ": " + value + "<br>");
+        }
+    </script>
+
+</body>
+</html>
